@@ -1,5 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "PipMath"
+    name: "PipMath",
+    targets : [
+        Target(name:"PipMath"),
+    ]
 )
